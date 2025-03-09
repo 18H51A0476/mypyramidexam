@@ -27,7 +27,7 @@ const examData = [
 
 const LatestExamsSection = () => {
   return (
-    <section className="py-20 px-6 max-w-6xl mx-auto relative">
+    <section id="exams" className="py-20 px-6 max-w-6xl mx-auto relative">
       {/* Glowing Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-purple-50 opacity-50 blur-2xl -z-10"></div>
 

@@ -55,13 +55,13 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-20 px-6 max-w-7xl mx-auto text-center relative">
+    <section id="features" className="py-20 px-6 max-w-7xl mx-auto text-center relative">
       {/* Background Gradient for Depth */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-purple-50 opacity-50 blur-2xl -z-10"></div>
 
       {/* Title */}
       <motion.h2
-        className="text-5xl font-extrabold text-gray-900 mb-12"
+        className="md:text-5xl text-3xl font-extrabold text-gray-900 mb-12"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}

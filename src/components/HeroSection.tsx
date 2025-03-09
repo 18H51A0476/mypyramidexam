@@ -4,7 +4,7 @@ import { Rocket, BrainCircuit, GraduationCap, Trophy } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative mt-16 bg-gradient-to-r from-indigo-600 via-blue-500 to-purple-600 text-white text-center py-24 px-6 overflow-hidden">
+    <section id="home" className="relative mt-16 bg-gradient-to-r from-indigo-600 via-blue-500 to-purple-600 text-white text-center py-24 px-6 overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}

@@ -11,7 +11,7 @@ const leaderboardData = [
 
 const LeaderboardSection = () => {
   return (
-    <section className="py-20 px-6 max-w-5xl mx-auto relative">
+    <section id="leaderboard" className="py-20 px-6 max-w-5xl mx-auto relative">
       {/* Glowing Background for Premium Feel */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-purple-50 opacity-50 blur-2xl -z-10"></div>
 

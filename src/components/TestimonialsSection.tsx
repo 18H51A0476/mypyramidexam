@@ -21,7 +21,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-20 px-6 max-w-6xl mx-auto relative">
+    <section id="testimonials" className="py-20 px-6 max-w-6xl mx-auto relative">
       {/* Glowing Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-yellow-50 to-orange-50 opacity-50 blur-2xl -z-10"></div>
 
